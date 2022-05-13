@@ -3,10 +3,10 @@
 const html = document.querySelector("html");
 const body = document.querySelector("body");
 const main = document.querySelector("main");
-// inicio
+// animacion inicio
 const inicio = document.getElementById("inicio");
 const colorArray = ["#fff", "#f00", "#0f0", "#ff0", "#f0f", "#0ff"];
-// identify
+// menús inicio de sesion y registro
 const identifyContainer = document.getElementById("identify-container");
 const loginContainer = document.getElementById("login");
 const registerContainer = document.getElementById("register");
@@ -54,7 +54,8 @@ inicio.addEventListener("click", () => {
 	clearInterval(subrayado);
 });
 
-// identify
+
+// cambio entre menus
 loadRegister.addEventListener("click", () => {
 	loginContainer.style.left = "-100%";
 	registerContainer.style.left = "0";
@@ -65,6 +66,7 @@ loadLogin.addEventListener("click", () => {
 	registerContainer.style.left = "100%";
 });
 
+// iniciar sesion
 loginBtn.addEventListener("click", () => {
 	const loginUsername = document.getElementById("login-username").value;
 	const loginPassword = document.getElementById("login-password").value;
@@ -75,6 +77,7 @@ loginBtn.addEventListener("click", () => {
 	login(loginUsername, loginPassword)
 });
 
+// registrar usuario
 registerBtn.addEventListener("click", () => {
 	const registerUsername = document.getElementById("register-username").value;
 	const registerPassword1 = document.getElementById("register-password1").value
@@ -95,7 +98,7 @@ registerBtn.addEventListener("click", () => {
 });
 
 
-// funciones
+// notificaciones
 function mostrarNotificacion(notificacion) {
 	const notif = document.createElement("div");
 	if (notif) {
@@ -109,6 +112,7 @@ function mostrarNotificacion(notificacion) {
 }
 
 // indexedDB
+// inicializar db
 const indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
 let db
 let request = indexedDB.open('database')
@@ -129,6 +133,7 @@ request.onsuccess = function (e) {
 	}
 }
 
+// recuperar usuario de la db
 function login(username, password) {
 	let objectStore = db.transaction('users', 'readwrite').objectStore('users')
 	objectStore.get(username).onsuccess = function (e) {
@@ -143,6 +148,7 @@ function login(username, password) {
 	}
 }
 
+// registrar usuario en la db
 function register(registerUsername, registerPassword) {
 	let objectStore = db.transaction('users', 'readwrite').objectStore('users')
 	let getRequest = objectStore.get(registerUsername)

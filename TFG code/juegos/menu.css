@@ -11,7 +11,7 @@ body {
     background: url(../sources/fondo.jpg) fixed;
 }
 
-/* aside style */
+/* menú lateral */
 
 .target {
     transition: left .7s;
@@ -88,7 +88,7 @@ aside i {
     margin: auto;
 }
 
-/* main */
+/* galería de juegos */
 
 main {
     width: 100%;

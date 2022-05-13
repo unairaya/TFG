@@ -11,11 +11,9 @@ navBtn.addEventListener('click', ()=>{
 // galeria de juegos
 const gamesWrapper = document.getElementById('games-wrapper')
 
-function loadGame(id){
-    alert(id)
-}
 
 // indexedDB
+// inicializar db
 const indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
 let db
 let userPoints
@@ -29,6 +27,7 @@ indexedDB.open('database').onsuccess = function (e) {
     }
 }
 
+// cargar los juegos en el menu en base a los puntos del usuario
 import juegosJson from './juegos.json' assert {type: 'json'}
 function cargarPagina(){
     
