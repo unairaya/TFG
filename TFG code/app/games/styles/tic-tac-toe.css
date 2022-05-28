@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.opcion-tablero{
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    box-sizing: border-box;
+}
+
+.opcion-tablero.x::after{
+    content: 'X';
+    font-size: 80px;
+    position: absolute;
+    transform: translateX(20px);
+}
+
+.opcion-tablero.o::after{
+    content: 'O';
+    font-size: 80px;
+    position: absolute;
+    transform: translateX(20px);
+}
