@@ -16,7 +16,28 @@
                     "class": ["game-title", "hover"],
                     "innerText": "tetris"
                 }
-            }
+            },
+            "description": ""
+        },
+        {
+            "points": 0,
+            "preview": {
+                "div": {
+                    "class": ["game-card"],
+                    "id": "simon"
+                },
+                "img": {
+                    "src": "./sources/simon.png",
+                    "alt": "partida de simon say's",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": ["game-title", "hover"],
+                    "innerText": "simon say's"
+                }
+            },
+            "app":"./games/simon.html",
+            "description": "Juego de Simon Say's. Consiste en imitar las pulsaciones memorizando el orden, que a cada ronda será más largo"
         },
         {
             "points": 0,
@@ -34,7 +55,9 @@
                     "class": ["game-title", "hover"],
                     "innerText": "tic tac toe"
                 }
-            }
+            },
+            "app":"./games/tic-tac-toe.html",
+            "description": "Juego clásico de tres en raya. El objetivo es lograr poner 3 x en línea, ya sea en horizontal, vertical o diagonal."
         },
         {
             "points": 50,
@@ -52,7 +75,8 @@
                     "class": ["game-title", "hover"],
                     "innerText": "buscaminas"
                 }
-            }
+            },
+            "description": ""
         },
         {
             "points": 100,
@@ -70,7 +94,8 @@
                     "class": ["game-title", "hover"],
                     "innerText": "classic snake"
                 }
-            }
+            },
+            "description": ""
         }
     ],
     "locked": {

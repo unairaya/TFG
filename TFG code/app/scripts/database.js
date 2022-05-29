@@ -116,4 +116,4 @@ function resetActual() {
     };
 }
 
-export { startDB, getUser, registerUser, setActual, resetActual };
+export { startDB, getUser, registerUser, setActual, resetActual, addPoints };

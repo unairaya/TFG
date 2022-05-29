@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.state{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15vh;
+    font-size: 6vh;
+}
+
+.btn-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boton{
+    width: 17vw;
+    height: 17vw;
+    background-color: #444;
+}
+
+.boton.pulsado{
+    background-color: #7fffd4;
+}
