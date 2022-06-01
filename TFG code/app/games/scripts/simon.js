@@ -46,6 +46,7 @@ async function mostrarSecuencia() {
         await delay(tiempo)
     }
     turnoJugador = true
+    state.innerText = 'Su turno'
 }
 
 async function comprobarRespuesta(opcion) {
@@ -65,6 +66,7 @@ async function comprobarRespuesta(opcion) {
             evaluando = 0
             tiempo = tiempo > 0.4 ? tiempo - 0.1 : 0.4
             turnoJugador = false
+            state.innerText = 'Memorice la secuencia'
             añadirInstruccion()
         }
     }
