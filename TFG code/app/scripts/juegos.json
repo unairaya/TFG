@@ -5,19 +5,20 @@
             "preview": {
                 "div": {
                     "class": ["game-card"],
-                    "id": "tetris"
+                    "id": "snake"
                 },
                 "img": {
-                    "src": "./sources/tetris.jpg",
-                    "alt": "partida de tetris",
+                    "src": "./sources/snake.jpg",
+                    "alt": "partida de juego clasico snake",
                     "class": "game-img"
                 },
                 "h3": {
                     "class": ["game-title", "hover"],
-                    "innerText": "tetris"
+                    "innerText": "classic snake"
                 }
             },
-            "description": ""
+            "app": "./games/snake.html",
+            "description": "Juego clásico 'Snake'. Controla la serpiente con las flechas de dirección y trata de coger la manzana. Si la serpiente choca con las paredes o con su propio cuerpo finaliza la partida"
         },
         {
             "points": 0,
@@ -76,6 +77,7 @@
                     "innerText": "buscaminas"
                 }
             },
+            "app": "",
             "description": ""
         },
         {
@@ -83,20 +85,22 @@
             "preview": {
                 "div": {
                     "class": ["game-card"],
-                    "id": "snake"
+                    "id": "tetris"
                 },
                 "img": {
-                    "src": "./sources/snake.jpg",
-                    "alt": "partida de juego clasico snake",
+                    "src": "./sources/tetris.jpg",
+                    "alt": "partida de tetris",
                     "class": "game-img"
                 },
                 "h3": {
                     "class": ["game-title", "hover"],
-                    "innerText": "classic snake"
+                    "innerText": "tetris"
                 }
             },
+            "app": "",
             "description": ""
         }
+        
     ],
     "locked": {
         "div": {
