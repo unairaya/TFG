@@ -11,6 +11,7 @@ document.querySelectorAll('.opcion-tablero').forEach((opcion, index) => opcion.a
 
 const dibujar = (event, pos) => {
     if(turno % 2) return
+    if(event.target.classList.contains('o') || event.target.classList.contains('x')) return
     event.target.classList.add('x')
     tablero[pos] = 'x'
     turno++
