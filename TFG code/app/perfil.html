@@ -25,7 +25,24 @@
         </nav>
     </aside>
     <main>
-        
+        <div class="content">
+            <h2>Perfil</h2>
+            <div class="data-container">
+                <p>Nombre de usuario: <span id="username"></span></p>
+                <p>Puntos: <span id="userPoints"></span></p>
+            </div>
+            <button id="mostrarChangePassword">Cambiar contraseña</button>
+        </div>
+        <div class="changePassword">
+            <form>
+                <input type="password" id="old-password" placeholder="Contraseña antigua">
+                <input type="password" id="new-password-1" placeholder="Contraseña nueva">
+                <input type="password" id="new-password-2" placeholder="Repita la nueva contraseña">
+                <button type="submit" id="cambiar">Cambiar contraseña</button>
+            </form>
+            <button id="cancelar">Cancelar</button>
+        </div>
+        <div id="toasts"></div>
     </main>
 </body>
 </html>

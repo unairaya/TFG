@@ -21,7 +21,7 @@
             "description": "Juego clásico 'Snake'. Controla la serpiente con las flechas de dirección y trata de coger la manzana. Si la serpiente choca con las paredes o con su propio cuerpo finaliza la partida"
         },
         {
-            "points": 0,
+            "points": 30,
             "preview": {
                 "div": {
                     "class": ["game-card"],
@@ -41,7 +41,7 @@
             "description": "Juego de Simon Say's. Consiste en imitar las pulsaciones memorizando el orden, que a cada ronda será más largo"
         },
         {
-            "points": 0,
+            "points": 60,
             "preview": {
                 "div": {
                     "class": ["game-card"],
@@ -61,7 +61,7 @@
             "description": "Juego clásico de tres en raya. El objetivo es lograr poner 3 x en línea, ya sea en horizontal, vertical o diagonal."
         },
         {
-            "points": 50,
+            "points": 100,
             "preview": {
                 "div": {
                     "class": ["game-card"],
@@ -77,8 +77,8 @@
                     "innerText": "buscaminas"
                 }
             },
-            "app": "",
-            "description": ""
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
         },
         {
             "points": 100,
@@ -93,12 +93,92 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover"],
+                    "class": ["game-title", "hover", "white-title"],
                     "innerText": "tetris"
                 }
             },
-            "app": "",
-            "description": ""
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 100,
+            "preview": {
+                "div": {
+                    "class": ["game-card"],
+                    "id": "street-fighter"
+                },
+                "img": {
+                    "src": "./sources/street-fighter.jpg",
+                    "alt": "portada street fighter",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": ["game-title", "hover"],
+                    "innerText": "street fighter"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 100,
+            "preview": {
+                "div": {
+                    "class": ["game-card"],
+                    "id": "pinball"
+                },
+                "img": {
+                    "src": "./sources/pinball.jpg",
+                    "alt": "partida de pinball",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": ["game-title", "hover", "white-title"],
+                    "innerText": "pinball"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 100,
+            "preview": {
+                "div": {
+                    "class": ["game-card"],
+                    "id": "mario"
+                },
+                "img": {
+                    "src": "./sources/mario.jpg",
+                    "alt": "mario",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": ["game-title", "hover"],
+                    "innerText": "mario 64"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 100,
+            "preview": {
+                "div": {
+                    "class": ["game-card"],
+                    "id": "space-invaders"
+                },
+                "img": {
+                    "src": "./sources/space-invaders.jpg",
+                    "alt": "partida de space invaders",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": ["game-title", "hover", "white-title"],
+                    "innerText": "space invaders"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
         }
         
     ],

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.content {
+    width: 40vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content h2{
+    font-size: 5vh;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.data-container {
+    text-align: center;
+    font-size: 3vh;
+}
+
+#mostrarChangePassword {
+    width: 20vw;
+    height: 5vh;
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 1vh;
+}
+
+#mostrarChangePassword:hover {
+    cursor: pointer;
+    color: #999;
+    border-color: #999;
+}
+
+.changePassword {
+    width: 25vw;
+    height: 50vh;
+    background-color: #fff;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    border-radius: 5vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.changePassword form {
+    height: 30vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.changePassword form * {
+    height: 4vh;
+    border-radius: 1vh;
+}
+
+.changePassword input {
+    background-color: #999;
+    padding: 0 3vw;
+    text-align: center;
+}
+
+.changePassword input::placeholder {
+    color: #fff;
+}
+
+#cambiar {
+    background-color: #0e6b25;
+    font-size: 2vh;
+}
+
+#cambiar:hover {
+    cursor: pointer;
+    background-color: #0b551e;
+}
+
+#cancelar {
+    background-color: #999;
+    width: 15vw;
+    height: 4vh;
+    border: none;
+    border-radius: 2vh;
+    background-color: #f00;
+}
+
+#cancelar:hover {
+    cursor: pointer;
+    background-color: #c00;
+}
+
+#toasts {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.toast {
+    background-color: #f00;
+    color: #fff;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+}

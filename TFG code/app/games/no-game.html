@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego en producción</title>
+    <script src="https://kit.fontawesome.com/568f00b637.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        i {
+            font-size: 10vh;
+            animation: giro 2s linear infinite;
+        }
+
+        @keyframes giro{
+            from {transform: rotate(0);}
+            to {transform: rotate(360deg);}
+        }
+
+    </style>
+</head>
+<body>
+    <h1>JUEGO EN PRODUCCIÓN</h1>
+    <i class="fa-solid fa-gear"></i>
+</body>
+</html>

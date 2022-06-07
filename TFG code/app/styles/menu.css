@@ -73,7 +73,7 @@ main {
     transform: scale(1);
 }
 
-#tetris .game-title {
+.white-title{
     color: #fff;
 }
 

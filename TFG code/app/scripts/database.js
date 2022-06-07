@@ -101,6 +101,22 @@ function addPoints(points) {
     };
 }
 
+function changePassword(newPassword, callback) {
+    let objectStore = db.transaction("users", "readwrite").objectStore("users");
+    const getRequest = objectStore.index("actual").get("true");
+    getRequest.onsuccess = function (e) {
+        if (e.target.result != undefined) {
+            let data = e.target.result;
+            data.password = newPassword;
+            objectStore.put(data);
+            callback()
+        } else throw "No se pudo recuperar el usuario actual";
+    };
+    getRequest.onerror = () => {
+        throw "Error al recuperar usuario";
+    };
+}
+
 function resetActual() {
     let objectStore = db.transaction("users", "readwrite").objectStore("users");
     const getRequest = objectStore.index("actual").get("true");
@@ -116,4 +132,4 @@ function resetActual() {
     };
 }
 
-export { startDB, getUser, registerUser, setActual, resetActual, addPoints };
+export { startDB, getUser, registerUser, setActual, resetActual, addPoints, changePassword };
