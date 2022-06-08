@@ -78,9 +78,7 @@ loginBtn.addEventListener("click", (e) => {
 });
 
 function login(user) {
-  console.log(user);
   if (user) {
-    console.log(user.password, loginPassword);
     if (user.password == loginPassword) {
       database.setActual(loginUsername);
       window.open("./menu.html", "_self");
