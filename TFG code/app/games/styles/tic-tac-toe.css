@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-main{
+main {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -12,35 +12,35 @@ main{
     align-items: center;
 }
 
-.game-container{
+.game-container {
     width: 300px;
     height: 300px;
     display: grid;
     grid-template-columns: repeat(3, auto);
 }
 
-.opcion-tablero{
+.opcion-tablero {
     width: 100px;
     height: 100px;
     border: 3px solid;
     box-sizing: border-box;
 }
 
-.opcion-tablero.x::after{
+.opcion-tablero.x::after {
     content: 'X';
     font-size: 80px;
     position: absolute;
     transform: translateX(20px);
 }
 
-.opcion-tablero.o::after{
+.opcion-tablero.o::after {
     content: 'O';
     font-size: 80px;
     position: absolute;
     transform: translateX(20px);
 }
 
-.mensaje-resultado{
+.mensaje-resultado {
     display: none;
     flex-direction: column;
     justify-content: space-evenly;
@@ -52,69 +52,77 @@ main{
     position: absolute;
 }
 
-.resultado-title{
+.resultado-title {
     font-size: 30px;
     text-decoration: underline;
 }
 
-#points{
+#points {
     font-size: 20px;
 }
 
-.resultado-btn{
+.resultado-btn {
     width: 150px;
     height: 40px;
     font-size: 25px;
     background-color: #fff
 }
 
-.resultado-btn:hover{
+.resultado-btn:hover {
     background-color: #89cfeb;
     cursor: pointer;
 }
 
 /* responsive */
 @media (max-width: 500px) {
-    .game-container{
+    .game-container {
         width: 210px;
         height: 210px;
     }
-    .opcion-tablero{
+
+    .opcion-tablero {
         width: 70px;
         height: 70px;
     }
-    .opcion-tablero.x::after{
+
+    .opcion-tablero.x::after {
         font-size: 60px;
         transform: translateX(12px);
     }
-    .opcion-tablero.o::after{
+
+    .opcion-tablero.o::after {
         font-size: 60px;
         transform: translateX(10px);
     }
-    .mensaje-resultado{
+
+    .mensaje-resultado {
         width: 210px;
         height: 210px;
     }
 }
 
 @media (max-width: 400px) {
-    .game-container{
+    .game-container {
         width: 180px;
         height: 180px;
     }
-    .opcion-tablero{
+
+    .opcion-tablero {
         width: 60px;
         height: 60px;
     }
-    .opcion-tablero.x::after{
+
+    .opcion-tablero.x::after {
         font-size: 50px;
         transform: translateX(11px);
     }
-    .opcion-tablero.o::after{
+
+    .opcion-tablero.o::after {
         font-size: 50px;
         transform: translateX(8px);
     }
-    .mensaje-resultado{
+
+    .mensaje-resultado {
         width: 180px;
         height: 180px;
     }

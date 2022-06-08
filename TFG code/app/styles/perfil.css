@@ -5,6 +5,8 @@
     color: #fff;
 }
 
+
+/* datos del usuario */
 .content {
     width: 40vw;
     height: 40vh;
@@ -19,7 +21,7 @@
     justify-content: space-evenly;
 }
 
-.content h2{
+.content h2 {
     font-size: 5vh;
     text-transform: uppercase;
     text-decoration: underline;
@@ -44,6 +46,8 @@
     border-color: #999;
 }
 
+
+/* formulario cambio de contraseña */
 .changePassword {
     width: 25vw;
     height: 50vh;
@@ -106,6 +110,8 @@
     background-color: #c00;
 }
 
+
+/* notificaciones */
 #toasts {
     position: fixed;
     bottom: 10px;

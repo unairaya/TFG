@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
 
-.state{
+.state {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -13,7 +13,7 @@
     font-size: 6vh;
 }
 
-.btn-container{
+.btn-container {
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -21,25 +21,25 @@
     align-items: center;
 }
 
-.opcion{
+.opcion {
     width: 17vw;
     height: 17vw;
     background-color: #444;
 }
 
-.opcion.celeste{
+.opcion.celeste {
     background-color: #7fffd4;
 }
 
-.opcion.verde{
+.opcion.verde {
     background-color: #0f0;
 }
 
-.opcion.rojo{
+.opcion.rojo {
     background-color: #f00;
 }
 
-.result-container{
+.result-container {
     width: 100vw;
     height: 100vh;
     display: none;
@@ -47,11 +47,11 @@
     justify-content: center;
 }
 
-.results{
+.results {
     font-size: 4vh;
 }
 
-#btn{
+#btn {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

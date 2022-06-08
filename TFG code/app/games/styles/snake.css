@@ -1,49 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    row-gap: 2vh;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2vh;
 }
 
 .game-container {
-    width: 35vw;
-    height: 35vw;
-    display: flex;
-    flex-wrap: wrap;
-    outline: 2px solid;
-  }
-  
-  .game-container div {
-    width: 3.5vw;
-    height: 3.5vw;
-  }
-  
-  .snake {
-    background-color: #070;
-    border: 1px solid;
-    border-radius: 20%;
-  }
-  
-  .manzana {
-    background: url('../../sources/apple.jpg');
-    background-size: contain;
-  }
+  width: 35vw;
+  height: 35vw;
+  display: flex;
+  flex-wrap: wrap;
+  outline: 2px solid;
+}
 
-  .btn {
-    width: 30vw;
-    height: 10vh;
-    background-color: #aaa;
-    border: none;
-    border-radius: 10vw;
-    font-size: 5vh;
-  }
+.game-container div {
+  width: 3.5vw;
+  height: 3.5vw;
+}
+
+.snake {
+  background-color: #070;
+  border: 1px solid;
+  border-radius: 20%;
+}
+
+.manzana {
+  background: url('../../sources/apple.jpg');
+  background-size: contain;
+}
+
+.btn {
+  width: 30vw;
+  height: 10vh;
+  background-color: #aaa;
+  border: none;
+  border-radius: 10vw;
+  font-size: 5vh;
+}

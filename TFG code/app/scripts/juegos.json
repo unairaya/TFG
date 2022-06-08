@@ -4,7 +4,9 @@
             "points": 0,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "snake"
                 },
                 "img": {
@@ -13,7 +15,10 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover"],
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
                     "innerText": "classic snake"
                 }
             },
@@ -24,7 +29,9 @@
             "points": 30,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "simon"
                 },
                 "img": {
@@ -33,18 +40,23 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover"],
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
                     "innerText": "simon say's"
                 }
             },
-            "app":"./games/simon.html",
+            "app": "./games/simon.html",
             "description": "Juego de Simon Say's. Consiste en imitar las pulsaciones memorizando el orden, que a cada ronda será más largo"
         },
         {
             "points": 60,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "tic-tac-toe"
                 },
                 "img": {
@@ -53,18 +65,23 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover"],
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
                     "innerText": "tic tac toe"
                 }
             },
-            "app":"./games/tic-tac-toe.html",
+            "app": "./games/tic-tac-toe.html",
             "description": "Juego clásico de tres en raya. El objetivo es lograr poner 3 x en línea, ya sea en horizontal, vertical o diagonal."
         },
         {
             "points": 100,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "buscaminas"
                 },
                 "img": {
@@ -73,7 +90,10 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover"],
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
                     "innerText": "buscaminas"
                 }
             },
@@ -84,7 +104,9 @@
             "points": 100,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "tetris"
                 },
                 "img": {
@@ -93,7 +115,11 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover", "white-title"],
+                    "class": [
+                        "game-title",
+                        "hover",
+                        "white-title"
+                    ],
                     "innerText": "tetris"
                 }
             },
@@ -104,7 +130,9 @@
             "points": 100,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "street-fighter"
                 },
                 "img": {
@@ -113,7 +141,10 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover"],
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
                     "innerText": "street fighter"
                 }
             },
@@ -124,7 +155,9 @@
             "points": 100,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "pinball"
                 },
                 "img": {
@@ -133,7 +166,11 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover", "white-title"],
+                    "class": [
+                        "game-title",
+                        "hover",
+                        "white-title"
+                    ],
                     "innerText": "pinball"
                 }
             },
@@ -144,7 +181,9 @@
             "points": 100,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "mario"
                 },
                 "img": {
@@ -153,7 +192,10 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover"],
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
                     "innerText": "mario 64"
                 }
             },
@@ -164,7 +206,9 @@
             "points": 100,
             "preview": {
                 "div": {
-                    "class": ["game-card"],
+                    "class": [
+                        "game-card"
+                    ],
                     "id": "space-invaders"
                 },
                 "img": {
@@ -173,18 +217,24 @@
                     "class": "game-img"
                 },
                 "h3": {
-                    "class": ["game-title", "hover", "white-title"],
+                    "class": [
+                        "game-title",
+                        "hover",
+                        "white-title"
+                    ],
                     "innerText": "space invaders"
                 }
             },
             "app": "./games/no-game.html",
             "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
         }
-        
     ],
     "locked": {
         "div": {
-            "class": ["game-card", "locked"]
+            "class": [
+                "game-card",
+                "locked"
+            ]
         },
         "img": {
             "src": "./sources/locked.png",
@@ -192,16 +242,23 @@
             "class": "game-img"
         },
         "h3": {
-            "class": ["game-title", "hover"],
+            "class": [
+                "game-title",
+                "hover"
+            ],
             "innerText": "puntos restantes: "
         }
     },
     "soon": {
         "div": {
-            "class": ["game-card"]
+            "class": [
+                "game-card"
+            ]
         },
         "h3": {
-            "class": ["game-title"],
+            "class": [
+                "game-title"
+            ],
             "innerText": "próximamente"
         }
     }
