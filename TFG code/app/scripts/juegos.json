@@ -101,7 +101,7 @@
             "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
         },
         {
-            "points": 100,
+            "points": 130,
             "preview": {
                 "div": {
                     "class": [
@@ -127,7 +127,7 @@
             "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
         },
         {
-            "points": 100,
+            "points": 160,
             "preview": {
                 "div": {
                     "class": [
@@ -152,7 +152,7 @@
             "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
         },
         {
-            "points": 100,
+            "points": 200,
             "preview": {
                 "div": {
                     "class": [
@@ -178,7 +178,7 @@
             "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
         },
         {
-            "points": 100,
+            "points": 230,
             "preview": {
                 "div": {
                     "class": [
@@ -203,7 +203,7 @@
             "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
         },
         {
-            "points": 100,
+            "points": 260,
             "preview": {
                 "div": {
                     "class": [
@@ -247,19 +247,6 @@
                 "hover"
             ],
             "innerText": "puntos restantes: "
-        }
-    },
-    "soon": {
-        "div": {
-            "class": [
-                "game-card"
-            ]
-        },
-        "h3": {
-            "class": [
-                "game-title"
-            ],
-            "innerText": "próximamente"
         }
     }
 }
