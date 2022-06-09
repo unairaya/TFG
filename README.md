@@ -35,3 +35,6 @@ Actualmente hay desarrollados 3 juegos.
 
   - Tic Tac Toe
   ![image](https://user-images.githubusercontent.com/19588683/172694415-43e42e54-c960-49f5-8fac-01c992881c54.png)
+
+Para los juegos que aún no han sido desarrollados existe un salvapantallas que informa que el juego está en construcción
+![image](https://user-images.githubusercontent.com/19588683/172695372-b36d868d-73ce-49c1-a087-809d8fe15d81.png)
