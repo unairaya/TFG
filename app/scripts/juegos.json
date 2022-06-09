@@ -1,0 +1,252 @@
+{
+    "juegos": [
+        {
+            "points": 0,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "snake"
+                },
+                "img": {
+                    "src": "./sources/snake.jpg",
+                    "alt": "partida de juego clasico snake",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
+                    "innerText": "classic snake"
+                }
+            },
+            "app": "./games/snake.html",
+            "description": "Juego clásico 'Snake'. Controla la serpiente con las flechas de dirección y trata de coger la manzana. Si la serpiente choca con las paredes o con su propio cuerpo finaliza la partida"
+        },
+        {
+            "points": 30,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "simon"
+                },
+                "img": {
+                    "src": "./sources/simon.png",
+                    "alt": "partida de simon say's",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
+                    "innerText": "simon say's"
+                }
+            },
+            "app": "./games/simon.html",
+            "description": "Juego de Simon Say's. Consiste en imitar las pulsaciones memorizando el orden, que a cada ronda será más largo"
+        },
+        {
+            "points": 60,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "tic-tac-toe"
+                },
+                "img": {
+                    "src": "./sources/tic-tac-toe.jpg",
+                    "alt": "partida de tres en raya",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
+                    "innerText": "tic tac toe"
+                }
+            },
+            "app": "./games/tic-tac-toe.html",
+            "description": "Juego clásico de tres en raya. El objetivo es lograr poner 3 x en línea, ya sea en horizontal, vertical o diagonal."
+        },
+        {
+            "points": 100,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "buscaminas"
+                },
+                "img": {
+                    "src": "./sources/buscaminas.jpg",
+                    "alt": "partida de buscaminas",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
+                    "innerText": "buscaminas"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 130,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "tetris"
+                },
+                "img": {
+                    "src": "./sources/tetris.jpg",
+                    "alt": "partida de tetris",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover",
+                        "white-title"
+                    ],
+                    "innerText": "tetris"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 160,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "street-fighter"
+                },
+                "img": {
+                    "src": "./sources/street-fighter.jpg",
+                    "alt": "portada street fighter",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
+                    "innerText": "street fighter"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 200,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "pinball"
+                },
+                "img": {
+                    "src": "./sources/pinball.jpg",
+                    "alt": "partida de pinball",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover",
+                        "white-title"
+                    ],
+                    "innerText": "pinball"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 230,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "mario"
+                },
+                "img": {
+                    "src": "./sources/mario.jpg",
+                    "alt": "mario",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover"
+                    ],
+                    "innerText": "mario 64"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        },
+        {
+            "points": 260,
+            "preview": {
+                "div": {
+                    "class": [
+                        "game-card"
+                    ],
+                    "id": "space-invaders"
+                },
+                "img": {
+                    "src": "./sources/space-invaders.jpg",
+                    "alt": "partida de space invaders",
+                    "class": "game-img"
+                },
+                "h3": {
+                    "class": [
+                        "game-title",
+                        "hover",
+                        "white-title"
+                    ],
+                    "innerText": "space invaders"
+                }
+            },
+            "app": "./games/no-game.html",
+            "description": "Juego en desarrollo. Por favor, regrese más adelante para jugar a este juego."
+        }
+    ],
+    "locked": {
+        "div": {
+            "class": [
+                "game-card",
+                "locked"
+            ]
+        },
+        "img": {
+            "src": "./sources/locked.png",
+            "alt": "dibujo de candado",
+            "class": "game-img"
+        },
+        "h3": {
+            "class": [
+                "game-title",
+                "hover"
+            ],
+            "innerText": "puntos restantes: "
+        }
+    }
+}

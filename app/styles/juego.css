@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* contenedor del juego */
+.game-container {
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.game-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* descripcion y controles del juego */
+.game-description {
+    color: #fff;
+    text-align: center;
+}
+
+.game-description-title {
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.game-description-text {
+    font-size: 25px;
+    letter-spacing: 2px;
+    width: 1000px;
+    font-weight: bold;
+}
+
+/* responsive */
+@media (max-width: 1600px) {
+    .game-container {
+        width: 640px;
+        height: 400px;
+    }
+
+    .game-description-title {
+        font-size: 30px;
+    }
+
+    .game-description-text {
+        font-size: 20px;
+        width: 800px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .game-container {
+        width: 480px;
+        height: 300px;
+    }
+
+    .game-description-title {
+        font-size: 25px;
+    }
+
+    .game-description-text {
+        font-size: 15px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 750px) {
+    .game-container {
+        width: 320px;
+        height: 200px;
+    }
+
+    .game-description-title {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .game-description-text {
+        font-size: 10px;
+        width: 400px;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="./styles/tic-tac-toe.css">
+    <script defer src="./scripts/tic-tac-toe.js" type="module"></script>
+</head>
+
+<body>
+    <main>
+        <div class="game-container">
+            <div class="opcion-tablero" id="0"></div>
+            <div class="opcion-tablero" id="1"></div>
+            <div class="opcion-tablero" id="2"></div>
+            <div class="opcion-tablero" id="3"></div>
+            <div class="opcion-tablero" id="4"></div>
+            <div class="opcion-tablero" id="5"></div>
+            <div class="opcion-tablero" id="6"></div>
+            <div class="opcion-tablero" id="7"></div>
+            <div class="opcion-tablero" id="8"></div>
+        </div>
+        <div class="mensaje-resultado" id="mensaje-victoria">
+            <h3 class="resultado-title">VICTORIA</h3>
+            <p id="points">+5 puntos</p>
+            <button class="resultado-btn">Reiniciar</button>
+        </div>
+        <div class="mensaje-resultado" id="mensaje-derrota">
+            <h3 class="resultado-title">DERROTA</h3>
+            <button class="resultado-btn">Reiniciar</button>
+        </div>
+        <div class="mensaje-resultado" id="mensaje-empate">
+            <h3 class="resultado-title">EMPATE</h3>
+            <button class="resultado-btn">Reiniciar</button>
+        </div>
+    </main>
+</body>
+
+</html>

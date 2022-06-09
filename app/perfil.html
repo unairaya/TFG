@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos UR</title>
+    <link rel="icon" href="./sources/icon.png">
+    <link rel="stylesheet" href="./styles/menuLateral.css">
+    <link rel="stylesheet" href="./styles/perfil.css">
+    <script defer type="module" src="./scripts/perfil.js"></script>
+    <script src="https://kit.fontawesome.com/568f00b637.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav-button target">
+        <i class="fas fa-caret-right"></i>
+    </div>
+    <aside class="target">
+        <nav>
+            <ul>
+                <li><a href="./perfil.html"><i class="fas fa-user"></i><span>Mi perfil</span></a></li>
+                <li><a href="./menu.html"><i class="fas fa-gamepad"></i><span>Todos los juegos</span></a></li>
+                <li><a href="./inicio.html"><i class="fas fa-right-from-bracket"></i><span>Cerrar sesión</span></a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <div class="content">
+            <h2>Perfil</h2>
+            <div class="data-container">
+                <p>Nombre de usuario: <span id="username"></span></p>
+                <p>Puntos: <span id="userPoints"></span></p>
+            </div>
+            <button id="mostrarChangePassword">Cambiar contraseña</button>
+        </div>
+        <div class="changePassword">
+            <form>
+                <input type="password" id="old-password" placeholder="Contraseña antigua">
+                <input type="password" id="new-password-1" placeholder="Contraseña nueva">
+                <input type="password" id="new-password-2" placeholder="Repita la nueva contraseña">
+                <button type="submit" id="cambiar">Cambiar contraseña</button>
+            </form>
+            <button id="cancelar">Cancelar</button>
+        </div>
+        <div id="toasts"></div>
+    </main>
+</body>
+
+</html>
