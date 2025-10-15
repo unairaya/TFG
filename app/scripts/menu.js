@@ -20,7 +20,7 @@ function getUser() {
 }
 
 // cargar los juegos en el menu en base a los puntos del usuario
-import juegosJson from "./juegos.json" assert { type: "json" };
+import juegosJson from "./juegos.json";
 
 function cargarPagina(user) {
   let userPoints = user.points;
